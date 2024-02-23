@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Editar</title>
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <form action="html/insertar.html" method="get">
+            <button type="submit">Insertar</button>
+        </form>
+            <form action="../php/mostrar.php" method="get">
+                <button type="submit">mostrar</button>
+            </form>
+            <form action="../index.html" method="get">
+                <button type="submit">Inicio</button>
+            </form>
+    </header>
+    <form action="php/mostrar.php" id="form" name="form" method="post" class="form-grid">
+      <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+      </p><p>
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario" id="usuario">
+      </p><p>
+        <label for="contrasena">Password:</label>
+        <input type="text" name="contrasena" id="contrasena">
+      </p><p>
+        <label for="cedula">Cedula:</label>
+        <input type="text" name="cedula" id="cedula">
+      </p>
+      <p>
+        <input type="submit" name="submit" id="submit" value="Editar">
+        <input type="reset" name="reset" id="reset" value="Restablecer">
+      </p>
+    </form>
+</body>
+</html>
